@@ -357,3 +357,30 @@ body.dark-mode,
     margin-bottom: 20px;
   }
 }
+@media (max-width: 264px) {
+  .overview-container {
+    margin: 5rem auto;
+    font-size: 20px;
+  }
+
+  .overview-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /* Add this line */
+    align-items: center;
+  }
+
+  .ov-grid-item {
+    aspect-ratio: 2/1;
+    width: 100%;
+  }
+
+  .icon-percent {
+    margin-left: 0;
+  }
+
+  .icon-percent-insta {
+    padding-right: 10px;
+  }
+}
