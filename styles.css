@@ -365,7 +365,7 @@ body.dark-mode,
 
   .overview-grid-container {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 20px;
     justify-content: center; /* Add this line */
     align-items: center;
