@@ -317,6 +317,15 @@ body.dark-mode,
     padding-left: 0;
   }
 
+  .ov-grid-item {
+    aspect-ratio: 2/1;
+    width: 100%;
+  }
+
+  .ov-content {
+    width: 100%;
+  }
+
   .switch {
     margin-right: 0;
   }
