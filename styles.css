@@ -334,6 +334,15 @@ body.dark-mode,
     padding: 0 1rem;
   }
 
+  .ov-grid-item {
+    aspect-ratio: 2/1;
+    width: 100%;
+  }
+
+  .ov-content {
+    width: 100%;
+  }
+
   .grid-item {
     padding: 25px 30px 25px 30px;
   }
